@@ -10,19 +10,20 @@ namespace WarDragons.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Title = "Eightballers WIKI";
             return View();
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Eightballers description page.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Eightballers contact page.";
 
             return View();
         }
